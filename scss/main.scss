@@ -90,17 +90,19 @@ body {
 }
 
 .date-now {
-  z-index: 99; 
-  display: flex; 
-  justify-content: flex-end; 
-  width: 100%; 
-  background-color: aliceblue; 
-  height: 2rem; color: black; 
-  font-size: 1rem; 
-  margin-top: 71px; 
-  align-items: center; 
+  z-index: 99;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: aliceblue;
+  height: 2rem;
+  color: black;
+  font-size: 1rem;
+  margin-top: 71px;
+  align-items: center;
   padding-right: 10%;
   position: fixed;
+
   &__content {
     padding-right: 1rem;
     font-family: 'Lato-regular', sans-serif;
