@@ -7,8 +7,7 @@ const dateTime = now.toLocaleString(DateTime.DATETIME_FULL);
 const timeContainer = document.querySelector('.date-now__content');
 
 const showTime = () => {
-    timeContainer.innerHTML = dateTime;
+  timeContainer.innerHTML = dateTime;
 };
 
 export default showTime;
-

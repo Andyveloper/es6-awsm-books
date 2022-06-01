@@ -396,6 +396,10 @@ body {
   padding: 2% 0;
 }
 
+.date {
+  width: 100%;
+}
+
 .date-now {
   z-index: 99;
   display: -webkit-box;
