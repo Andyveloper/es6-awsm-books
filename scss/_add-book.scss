@@ -1,0 +1,43 @@
+.divider {
+  @include divider;
+}
+
+.add-book {
+  padding-top: 10%;
+
+  &__title {
+    @include flex-column;
+    @include section-title;
+    @include unhover;
+
+    &:hover {
+      @include hover-transition;
+    }
+
+    text-shadow: 1px 2px 2px black;
+  }
+
+  &__add-form {
+    @include flex-column;
+
+    margin: 0 20%;
+
+    input {
+      width: 30rem;
+      height: 2rem;
+      padding: 1rem;
+      margin: 0.5rem;
+
+      &:focus {
+        border: 3px solid;
+        border-color: $primary-color;
+      }
+    }
+
+    #book-submit {
+      @include button-std;
+
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+"plugins": ["jsdom-quokka-plugin"]
+}
