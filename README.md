@@ -46,4 +46,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [GPL 3.0](/LICENSE) licensed.
+This project is [MIT](/LICENSE) licensed.
